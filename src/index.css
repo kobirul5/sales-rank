@@ -4,9 +4,22 @@
 
 @theme {
     --color-pink: #53b17a;
+    --color-blue: #6797FF;
     --font-manrope: "Manrope", sans-serif; /* Fonts */
 }
 
 .btn{
     @apply  px-[13px] py-[16px] font-bold
+}
+
+h1 h2 h3 h4 h5 h6 {
+    @apply text-[#111111]
+}
+
+p{
+    @apply text-[#05131DB3]
+}
+
+.extra-color{
+    @apply text-[#00245F]
 }

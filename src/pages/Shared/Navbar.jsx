@@ -11,7 +11,7 @@ const links = [
 ]
 
   return (
-    <nav className="flex justify-between items-center container mx-auto">
+    <nav className="flex justify-between items-center container mx-auto bg-transparent py-[10px]">
       <div className="flex items-center gap-[74px]">
         <div>
           <h2>SalesRank.AI</h2>
