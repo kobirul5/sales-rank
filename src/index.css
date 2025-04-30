@@ -6,3 +6,7 @@
     --color-pink: #53b17a;
     --font-manrope: "Manrope", sans-serif; /* Fonts */
 }
+
+.btn{
+    @apply  px-[13px] py-[16px] font-bold
+}
