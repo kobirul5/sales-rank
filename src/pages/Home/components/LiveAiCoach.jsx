@@ -14,7 +14,7 @@ const LiveAICoach = () => {
     ]
 const icons = [<AiOutlineReload/>, <AiOutlineLike />,<AiOutlineDislike />, <FaClipboard/>, <AiFillAudio/>]
     return (
-        <div className="bg-gradient-to-br from-blue-900 to-blue-700 text-white px-6 py-[60px] flex justify-center">
+        <div className="bg-gradient-to-br from-blue-900 mt-14 to-blue-700 text-white px-6 py-[60px] flex justify-center">
             <div className='container mx-auto'>
                 <div className='space-y-5 mb-[60px]'>
                     <h6 className='text-[#FCE38A]'>Live Ai Coach</h6>

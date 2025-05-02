@@ -1,6 +1,8 @@
+import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 import Banner from './components/Banner';
 import LiveAICoach from './components/LiveAiCoach';
+import blueEffect from "../../assets/Rectangle 23823.png"
 
 const Home = () => {
   return (
@@ -18,6 +20,12 @@ const Home = () => {
       <div>
         <LiveAICoach/>
       </div>
+    <div className='relative bg-gray-100 mt-14'>
+    <div className='absolute bottom-0 left-0 container'>
+      <img src={blueEffect} alt="" />
+    </div>
+      <Footer/>
+    </div>
     </div>
   )
 }
