@@ -18,7 +18,7 @@ const links = [
           </div>
           <div>
             <ul className="flex items-center gap-10 capitalize">
-              {links.map(link=><li><Link to={link.path}>{link.name}</Link></li>)}
+              {links.map((link, idx)=><li key={idx}><Link to={link.path}>{link.name}</Link></li>)}
             </ul>
           </div>
       </div>

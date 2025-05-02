@@ -25,14 +25,14 @@ const Banner = () => {
                         <div className="flex justify-center items-center gap-5">
                             <img src={bannerIcon1} alt="" />
                             <div>
-                                <p className="text-[40px]">2000+</p>
-                                <p>Your protection</p>
+                                <p className="text-[40px] extra-color ">2000+</p>
+                                <p className="">Your protection</p>
                             </div>
                         </div>
                         <div className="flex justify-center items-center gap-5">
                             <img src={bannerIcon2} alt="" />
                             <div>
-                                <p className="text-[40px]">7001+</p>
+                                <p className="text-[40px] extra-color">7001+</p>
                                 <p>Provide tailored</p>
                             </div>
                         </div>

@@ -1,11 +1,11 @@
-import React from 'react'
 import Navbar from '../Shared/Navbar';
 import Banner from './components/Banner';
+import LiveAICoach from './components/LiveAiCoach';
 
 const Home = () => {
   return (
     <div className='font-manrope'>
-      <div className="absolute inset-0 z-0">
+      <div className="absolute pointer-events-none z-0">
         <div className="absolute -top-32 -left-32 w-[400px] h-[400px] bg-blue rounded-full blur-[150px]"></div>
         
       </div>
@@ -15,6 +15,9 @@ const Home = () => {
         </div>
         <Banner />
       </header>
+      <div>
+        <LiveAICoach/>
+      </div>
     </div>
   )
 }
